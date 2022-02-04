@@ -5,8 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+// in Dev env. these two are used, not much @Builder
 public class Apple {
     private Color color;
     private int weight;

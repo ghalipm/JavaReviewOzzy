@@ -2,6 +2,7 @@ package Day4_PB_Lambda_Exercise;
 
 import java.util.LinkedList;
 import java.util.List;
+// For behavior parameterization or Lambda expression, the interface must have only one abstract method.
 
 public class FilterAppleByWeight implements FilterApple {
 
